@@ -1,0 +1,26 @@
+{
+  "name": "playwright-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhraseePhoundry/playwright-appium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhraseePhoundry/playwright-appium/issues"
+  },
+  "homepage": "https://github.com/PhraseePhoundry/playwright-appium#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12",
+    "webdriverio": "^8.37.0"
+  },
+  "dependencies": {
+    "appium-uiautomator2-driver": "^3.5.2"
+  }
+}
