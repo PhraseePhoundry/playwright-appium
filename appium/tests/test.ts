@@ -10,7 +10,7 @@ const capabilities = {
 
 const wdOpts = {
   hostname: process.env.APPIUM_HOST || 'localhost',
-  port: parseInt(process.env.APPIUM_PORT, 10) || 4723,
+  port: parseInt(process.env.APPIUM_PORT || '4723', 10),
   logLevel: 'info',
   capabilities,
 };
